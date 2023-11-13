@@ -1,0 +1,109 @@
+/*-- scss:defaults --*/
+
+// fonts
+$font-family: "Tahoma", !default;
+
+// colors
+$body-color: black !default;
+$link-color:  #00589d !default;
+$selection-bg: #e7ad52 !default;
+$input-panel-bg: rgba(233, 236, 239, 0.2) !default;
+
+// headings
+$presentation-heading-font: "Tahoma";
+$presentation-heading-color:  #00589d  !default;
+$presentation-heading-letter-spacing: -0.03em;
+/*-- scss:rules --*/
+
+.slide-background:first-child {
+  background-image: url(https://raw.githubusercontent.com/olayabucaro/WICslides/main/libs/figures/logo-owa.png);
+  background-repeat: contain;
+}
+
+.slide-background:nth-child(n+2) {
+  background-image: url(https://raw.githubusercontent.com/olayabucaro/WICslides/main/libs/figures/logo-owa.png);
+  background-repeat: contain;
+}
+
+.slide-background::last-child {
+  background-image: url(https://raw.githubusercontent.com/olayabucaro/WICslides/main/libs/figures/logo-owa.png);
+  background-repeat: contain;
+}
+
+/* Title field: Title font settings */
+.reveal h1.title {
+  color: #00589d ;
+  font-size: 2em;
+  text-align: left; /* Optional: center */
+  font-weight: bold;
+  margin-top: 10%; /* Distance between logo and title */
+  margin-bottom: 5%; /* Diastance to subtile field */
+}
+
+/* Author field: Author font settings */
+.reveal p.author {
+  color: #00589d ;
+  font-size: 1.1em;
+  text-align: left; /* Optional: center */
+  font-weight: 400;
+  margin-top: 1%; /* Distance between field lines */
+  margin-bottom: 3%;/* Diastance to date field */
+}
+
+/* Institute field: Affiliation font settings */
+.reveal p.institute {
+  color: #00589d ;
+  font-size: 0.5em;
+  text-align: left; /* Optional: center */
+  font-weight: 400;
+  margin-top: 3%; /* Distance between field lines */
+  margin-bottom: 10%;/* Diastance to date field */
+}
+
+/* Institute field: Affiliation font settings */
+.reveal p.date {
+  color: #00589d ;
+  font-size: 0.5em;
+  text-align: left; /* Optional: center */
+  font-weight: 400;
+  margin-top: 3%; /* Distance between field lines */
+  margin-bottom: 10%;/* Diastance to date field */
+}
+
+.reveal p { 
+  color: black;
+}
+
+.reveal .slide aside { 
+  color: black;
+  font-size: 0.3em;
+  
+}
+
+
+.reveal h1 {
+  color: #00589d ; /* IIASA blue */
+  font-weight: bold;
+  font-size: 3em;
+  text-align: left; /* Optional: center */
+}
+
+ul{
+  font-size: 1em;
+  padding-left: 2%;
+}
+
+/* Bullet point style */
+ul li::marker {
+  color: #00589d ; /* IIASA blue */
+}
+
+
+/* Bullet point style */
+.has-dark-background ul li::marker {
+  color: white;
+}
+
+section.has-dark-background a {
+  color: white;
+}

@@ -1,0 +1,56 @@
+---
+title: "Title of presentation (left or centred)"
+author: "Author(s) (left or centred)"
+institute: "Affiliation(s) (left or centred)"
+date: "Name of conference or event <br> Place, date"
+format:
+  revealjs:
+    slide-number: true
+    theme: iiasa.scss
+---
+
+## Example bullet list
+
+- Text Text Text
+- Text Text
+- Text
+- ...
+
+---
+
+## Example numbered list
+
+1. Text Text Text
+2. Text Text
+3. Text
+4. ...
+
+---
+
+## Example code
+
+```{r}
+# Some R code
+x <- rpois(5,10)
+y <- matrix(diag(x),5,5)
+print(y)
+```
+
+
+---
+
+## Example blockquote
+
+::: {.callout-note icon=false}
+## Question
+Text
+:::
+
+---
+
+## Conclusion
+
+- Text Text Text
+- Text Text
+- Text
+- ...
