@@ -16,18 +16,24 @@ $presentation-heading-letter-spacing: -0.03em;
 /*-- scss:rules --*/
 
 .slide-background:first-child {
-  background-image: url(https://raw.githubusercontent.com/olayabucaro/WICslides/main/libs/figures/logo-owa.png);
-  background-repeat: contain;
+  background-image: url(https://raw.githubusercontent.com/olayabucaro/IIASAslidesQuarto/main/background/Background_Title.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slide-background:nth-child(n+2) {
-  background-image: url(https://raw.githubusercontent.com/olayabucaro/WICslides/main/libs/figures/logo-owa.png);
-  background-repeat: contain;
+  background-image: url(https://raw.githubusercontent.com/olayabucaro/IIASAslidesQuarto/main/background/Background_Slide.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.slide-background::last-child {
-  background-image: url(https://raw.githubusercontent.com/olayabucaro/WICslides/main/libs/figures/logo-owa.png);
-  background-repeat: contain;
+.slide-background:last-child {
+  background-image: url(https://raw.githubusercontent.com/olayabucaro/IIASAslidesQuarto/main/background/Background_Title.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* Title field: Title font settings */
